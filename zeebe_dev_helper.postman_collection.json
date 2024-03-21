@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "494a2fe7-2c65-4e33-8b78-7f931960ffc2",
+		"name": "Zeebe Dev Helper",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28935552"
+	},
+	"item": [
+		{
+			"name": "trigger job worker",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"date\": \"12.12.1995\",\n    \"dateStyle\": \"EU\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/update_date",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"update_date"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
