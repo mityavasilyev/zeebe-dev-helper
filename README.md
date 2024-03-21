@@ -31,4 +31,4 @@ Zeebe job workers directly, facilitating the testing and validation of workflows
     }'
    ```
 
-   You can also check Postman collection in root folder for reference
+   You can also check [Postman collection](https://github.com/mityavasilyev/zeebe-dev-helper/blob/master/zeebe_dev_helper.postman_collection.json) in root folder for reference
